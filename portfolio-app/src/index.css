@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "ElaineSB";
+    src: local("ElaineBlack"),
+     url("./fonts/elaine-sans//hinted-ElaineSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ElaineM";
+    src: local("ElaineBlack"),
+     url("./fonts/elaine-sans//hinted-ElaineSans-Medium.ttf") format("truetype");
+}
+
+body {
+    background-color: #D4D2CE;
+    color: #000;
+    font-family: ElaineM, Arial;
+}
+    
