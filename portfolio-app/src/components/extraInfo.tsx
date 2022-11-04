@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import { Typography } from '@mui/material';
-import * as React from 'react';
+import { Typography } from '@mui/material'
+import { ElaineFont } from './text.styled';
 
 interface textProps {
     text: string
@@ -8,14 +8,13 @@ interface textProps {
 
 const TextContainer = styled.div`
     width: 50%;
-    margin: 30px auto;
+    margin: 30px 0px;
 `
-
 
 export default function ExtraText (props: textProps) {
     return (
         <TextContainer>
-            <Typography variant='subtitle1'>{props.text}</Typography>
+            <Typography variant='subtitle1'><ElaineFont>{props.text}</ElaineFont></Typography>
         </TextContainer>
     )
 }

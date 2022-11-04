@@ -1,5 +1,6 @@
 import * as React from 'react';
-import HomePage from './pages/home';
+import AboutMePage from './pages/AMe.page';
+import HomePage from './pages/home.page';
 
 
 function App() {
